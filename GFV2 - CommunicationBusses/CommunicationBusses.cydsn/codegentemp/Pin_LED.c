@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: SCL_Master.c  
+* File Name: Pin_LED.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "SCL_Master.h"
+#include "Pin_LED.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 SCL_Master__PORT == 15 && ((SCL_Master__MASK & 0xC0) != 0))
+	 Pin_LED__PORT == 15 && ((Pin_LED__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: SCL_Master_Write
+* Function Name: Pin_LED_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet SCL_Master_SUT.c usage_SCL_Master_Write
+*  \snippet Pin_LED_SUT.c usage_Pin_LED_Write
 *******************************************************************************/
-void SCL_Master_Write(uint8 value)
+void Pin_LED_Write(uint8 value)
 {
-    uint8 staticBits = (SCL_Master_DR & (uint8)(~SCL_Master_MASK));
-    SCL_Master_DR = staticBits | ((uint8)(value << SCL_Master_SHIFT) & SCL_Master_MASK);
+    uint8 staticBits = (Pin_LED_DR & (uint8)(~Pin_LED_MASK));
+    Pin_LED_DR = staticBits | ((uint8)(value << Pin_LED_SHIFT) & Pin_LED_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: SCL_Master_SetDriveMode
+* Function Name: Pin_LED_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void SCL_Master_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet SCL_Master_SUT.c usage_SCL_Master_SetDriveMode
+*  \snippet Pin_LED_SUT.c usage_Pin_LED_SetDriveMode
 *******************************************************************************/
-void SCL_Master_SetDriveMode(uint8 mode)
+void Pin_LED_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(SCL_Master_0, mode);
+	CyPins_SetPinDriveMode(Pin_LED_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: SCL_Master_Read
+* Function Name: Pin_LED_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void SCL_Master_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet SCL_Master_SUT.c usage_SCL_Master_Read  
+*  \snippet Pin_LED_SUT.c usage_Pin_LED_Read  
 *******************************************************************************/
-uint8 SCL_Master_Read(void)
+uint8 Pin_LED_Read(void)
 {
-    return (SCL_Master_PS & SCL_Master_MASK) >> SCL_Master_SHIFT;
+    return (Pin_LED_PS & Pin_LED_MASK) >> Pin_LED_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: SCL_Master_ReadDataReg
+* Function Name: Pin_LED_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 SCL_Master_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred SCL_Master_Read() API because the 
-* SCL_Master_ReadDataReg() reads the data register instead of the status 
+* preferred Pin_LED_Read() API because the 
+* Pin_LED_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 SCL_Master_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet SCL_Master_SUT.c usage_SCL_Master_ReadDataReg 
+*  \snippet Pin_LED_SUT.c usage_Pin_LED_ReadDataReg 
 *******************************************************************************/
-uint8 SCL_Master_ReadDataReg(void)
+uint8 Pin_LED_ReadDataReg(void)
 {
-    return (SCL_Master_DR & SCL_Master_MASK) >> SCL_Master_SHIFT;
+    return (Pin_LED_DR & Pin_LED_MASK) >> Pin_LED_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(SCL_Master_INTSTAT) 
+#if defined(Pin_LED_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: SCL_Master_SetInterruptMode
+    * Function Name: Pin_LED_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 SCL_Master_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use SCL_Master_INTR_ALL to configure the
+    *  component. Or you may use Pin_LED_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - SCL_Master_0_INTR       (First pin in the list)
-    *  - SCL_Master_1_INTR       (Second pin in the list)
+    *  - Pin_LED_0_INTR       (First pin in the list)
+    *  - Pin_LED_1_INTR       (Second pin in the list)
     *  - ...
-    *  - SCL_Master_INTR_ALL     (All pins in Pins component)
+    *  - Pin_LED_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 SCL_Master_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet SCL_Master_SUT.c usage_SCL_Master_SetInterruptMode
+    *  \snippet Pin_LED_SUT.c usage_Pin_LED_SetInterruptMode
     *******************************************************************************/
-    void SCL_Master_SetInterruptMode(uint16 position, uint16 mode)
+    void Pin_LED_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & SCL_Master_0_INTR) != 0u) 
+		if((position & Pin_LED_0_INTR) != 0u) 
 		{ 
-			 SCL_Master_0_INTTYPE_REG = (uint8)mode; 
+			 Pin_LED_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: SCL_Master_ClearInterrupt
+    * Function Name: Pin_LED_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 SCL_Master_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet SCL_Master_SUT.c usage_SCL_Master_ClearInterrupt
+    *  \snippet Pin_LED_SUT.c usage_Pin_LED_ClearInterrupt
     *******************************************************************************/
-    uint8 SCL_Master_ClearInterrupt(void)
+    uint8 Pin_LED_ClearInterrupt(void)
     {
-        return (SCL_Master_INTSTAT & SCL_Master_MASK) >> SCL_Master_SHIFT;
+        return (Pin_LED_INTSTAT & Pin_LED_MASK) >> Pin_LED_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 

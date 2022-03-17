@@ -15,7 +15,8 @@
 
 static uint16_t sampleWaitTimeInMilliseconds = 1000 / SAMPLES_PER_SECOND;
 static char RXBytes[4];
-uint8_t RXCounter;
+uint8_t RXCounter = 0;
+char *pbuffer;
 
 CY_ISR_PROTO(ISR_UART_rx_handler);
 void handleByteReceived(uint8_t byteReceived);
@@ -32,6 +33,7 @@ int main(void)
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     isr_uart_rx_StartEx(ISR_UART_rx_handler);   
     UART_1_Start();
+    Pin_LED_Write(0);
     
     for(;;)
     {
@@ -47,20 +49,22 @@ CY_ISR(ISR_UART_rx_handler)
         uint8_t byteReceived = UART_1_ReadRxData();
         UART_1_WriteTxData(byteReceived); // echo back
         
-        handleByteReceived(byteReceived);
+       handleByteReceived(byteReceived);
         
         bytesToRead--;
     }
 }
-void handleCommand(uint8_t byteReceived)
+void handleByteReceived(uint8_t byteReceived)
 {
-    switch(byteReceived)
-    {
-        case 'u' :
-        {
-            //
+    RXBytes[RXCounter] = byteReceived;
+    RXCounter = RXCounter + 1;
+    if(RXCounter == 4){
+        pbuffer = &RXBytes[0];
+        switch(*pbuffer){
+            case 'W':
+            Pin_LED_Write(1);
+            break;
         }
-        break;
     }
 }
 

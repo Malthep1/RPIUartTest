@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: SCL_Master.h  
+* File Name: Pin_LED.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_SCL_Master_ALIASES_H) /* Pins SCL_Master_ALIASES_H */
-#define CY_PINS_SCL_Master_ALIASES_H
+#if !defined(CY_PINS_Pin_LED_ALIASES_H) /* Pins Pin_LED_ALIASES_H */
+#define CY_PINS_Pin_LED_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define SCL_Master_0			(SCL_Master__0__PC)
-#define SCL_Master_0_INTR	((uint16)((uint16)0x0001u << SCL_Master__0__SHIFT))
+#define Pin_LED_0			(Pin_LED__0__PC)
+#define Pin_LED_0_INTR	((uint16)((uint16)0x0001u << Pin_LED__0__SHIFT))
 
-#define SCL_Master_INTR_ALL	 ((uint16)(SCL_Master_0_INTR))
+#define Pin_LED_INTR_ALL	 ((uint16)(Pin_LED_0_INTR))
 
-#endif /* End Pins SCL_Master_ALIASES_H */
+#endif /* End Pins Pin_LED_ALIASES_H */
 
 
 /* [] END OF FILE */

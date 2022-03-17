@@ -1,3 +1,3 @@
-# Component constraints for C:\PSoC\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\TopDesign\TopDesign.cysch
-# Project: C:\PSoC\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\CommunicationBusses.cyprj
-# Date: Tue, 07 Dec 2021 15:03:36 GMT
+# Component constraints for C:\dev\git\RPIUartTest\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\TopDesign\TopDesign.cysch
+# Project: C:\dev\git\RPIUartTest\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\CommunicationBusses.cyprj
+# Date: Thu, 17 Mar 2022 11:07:43 GMT
