@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|bd62283e-5be7-418c-98c6-6990b6e92995
+C:\Users\Malth\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|94bd4c6b-5fdd-4768-8fc5-05cdd9f85dbc
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|47817898-e397-48bc-adf0-b17dd2324943
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|55ca3bcb-733a-48ba-8834-f643d882acde
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|e3654f84-84af-4b76-8431-9c3f40367782
+C:\PSoC\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\CommunicationBusses.cyprj|be979091-4a2d-4ca3-9315-6df974c13f02
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|4f057ce4-ef99-433f-a847-ab8881ffae26

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GFV2 - CommunicationBusses\CommunicationBusses">
+<ExpandedNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\TopDesign</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Pins</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Analog</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Clocks</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Interrupts</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\DMA</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\System</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Directives</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Flash Security</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\EEPROM</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Header Files</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Header Files\cyapicallbacks.h</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Source Files</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Source Files\main.c</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\TopDesign</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Pins</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Analog</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Clocks</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Interrupts</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\DMA</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\System</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Directives</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\Flash Security</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.cydwr\EEPROM</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Header Files</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Header Files\cyapicallbacks.h</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Source Files</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Source Files\main.c</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cy_boot</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\I2C</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\isr_uart_rx</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\SCL_Master</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\SDA_Master</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\UART_1</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\UART_1_IntClock</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cydevice.h</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GFV2 - CommunicationBusses">
+<ExpandedNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\TopDesign</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\TopDesign</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GFV2 - CommunicationBusses">
+<ExpandedNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_INT.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_MASTER.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\I2C_SLAVE.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_uart_rx.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\SCL_Master.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\SDA_Master.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_INT.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_IntClock.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_PM.lst</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\CommunicationBusses.elf</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\CommunicationBusses.hex</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CortexM3\ARM_GCC_541\Debug\CommunicationBusses.map</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.gpdsc</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses.rpt</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CommunicationBusses_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GFV2 - CommunicationBusses">
+<ExpandedNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\PSoC 5LP Architecture TRM</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CY8C58LP Family Datasheet</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\System Reference Guides</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\System Reference Guides\cy_boot_v5_82</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\cy_isr_v1_71.pdf</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\cy_pins_v2_20</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\UART_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>GFV2 - CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\PSoC 5LP Architecture TRM</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\CY8C58LP Family Datasheet</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\System Reference Guides</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\System Reference Guides\cy_boot_v5_82</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\cy_isr_v1_71.pdf</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\cy_pins_v2_20</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>GFV2 - CommunicationBusses\CommunicationBusses\UART_v2_50.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\CommunicationBusses.cydsn\main.c" />
+<name v=".\CommunicationBusses.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\CommunicationBusses.cydsn\CommunicationBusses.cydwr" />
+<name v=".\CommunicationBusses.cydsn\sensor.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="2867, 777" SelectedTabbedMdiWindow="6b68f7d5-1d5f-40e6-a080-c14777b16ce8"><DocumentWindow Key="C:\PSoC\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\main.c" Guid="6b68f7d5-1d5f-40e6-a080-c14777b16ce8" /><DocumentWindow Key="C:\PSoC\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\TopDesign\TopDesign.cysch" Guid="8d3510fd-df9c-4e04-89a2-53c20dcd4aa2" /><DocumentWindow Key="C:\PSoC\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\CommunicationBusses.cydwr" Guid="42f548b9-0161-4fa2-8ecb-3cd3c94a52c4" /><DocumentWindow Key="C:\PSoC\GFV2 - CommunicationBusses\CommunicationBusses.cydsn\sensor.c" Guid="5dd16442-1624-4522-967c-5696801d2c5d" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="d80901aa-3f1c-44d9-9561-d31eebc76efa" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
