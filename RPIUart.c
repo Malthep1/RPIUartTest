@@ -72,11 +72,11 @@ int transmitBytes(){
 	unsigned char *p_tx_buffer;
 	
 	p_tx_buffer = &tx_buffer[0];
-	*p_tx_buffer++ = 'H';
-	*p_tx_buffer++ = 'e';
-	*p_tx_buffer++ = 'l';
-	*p_tx_buffer++ = 'l';
-	*p_tx_buffer++ = 'o';
+	*p_tx_buffer++ = 'W';
+	*p_tx_buffer++ = '1';
+	*p_tx_buffer++ = '0';
+	*p_tx_buffer++ = '0';
+	*p_tx_buffer++ = '0';
 	
 	if (uart0_filestream != -1)
 	{
